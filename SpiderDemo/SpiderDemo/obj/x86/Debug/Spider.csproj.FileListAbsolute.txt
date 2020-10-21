@@ -7,3 +7,9 @@ E:\github合集\ReptileDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\ConsoleApplicati
 E:\github合集\ReptileDemo\SpiderDemo\SpiderDemo\bin\Debug\ConsoleApplication1.exe
 E:\github合集\ReptileDemo\SpiderDemo\SpiderDemo\bin\Debug\ConsoleApplication1.pdb
 E:\github合集\ReptileDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\Spider.csprojResolveAssemblyReference.cache
+F:\杨志苍文件管理\400-编程\GitHubSource\SpiderDemo\SpiderDemo\SpiderDemo\SpiderDemo\bin\Debug\ConsoleApplication1.exe
+F:\杨志苍文件管理\400-编程\GitHubSource\SpiderDemo\SpiderDemo\SpiderDemo\SpiderDemo\bin\Debug\ConsoleApplication1.pdb
+F:\杨志苍文件管理\400-编程\GitHubSource\SpiderDemo\SpiderDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\Spider.csproj.CoreCompileInputs.cache
+F:\杨志苍文件管理\400-编程\GitHubSource\SpiderDemo\SpiderDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\ConsoleApplication1.exe
+F:\杨志苍文件管理\400-编程\GitHubSource\SpiderDemo\SpiderDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\ConsoleApplication1.pdb
+F:\杨志苍文件管理\400-编程\GitHubSource\SpiderDemo\SpiderDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\Spider.csprojAssemblyReference.cache

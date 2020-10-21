@@ -17,7 +17,14 @@ namespace Spider
             WebClient wc = new WebClient();
             wc.Encoding = Encoding.UTF8;
             //下载源网页代码  
-            string html = wc.DownloadString("https://tieba.baidu.com/p/2460150866?pn=3");
+            //https://tieba.baidu.com/p/1777771273#!/l/p1
+            //https://tieba.baidu.com/p/2460150866?pn=3
+            //<img pic_type="0" class="BDE_Image" src="https://imgsa.baidu.com/forum/w%3D580/sign=286958af622762d0803ea4b790ed0849/a317fdfaaf51f3de350a5ee895eef01f3b297987.jpg" pic_ext="jpeg" height="419" width="560">
+            //<img src="https://imgsa.baidu.com/forum/w%3D223/sign=eb5369af7bf40ad115e4c0e1642d1151/de5c10385343fbf25339f8b4b07eca8065388f14.jpg" style="width:223px;height:297px;left:0px;top:0px;">
+            //<img src="https://imgsa.baidu.com/forum/w%3D223/sign=d160da9233fa828bd1239ae1ce1e41cd/b54bd11373f0820237f1cfa84bfbfbedaa641bc1.jpg" style="width:223px;height:297px;left:0px;top:0px;">
+            //<img src = "https://imgsa.baidu.com/forum/w%3D223/sign=2fb3be9eb6003af34dbadb62062bc619/f8fe9925bc315c602dc835788db1cb13485477c3.jpg" style = "width:223px;height:297px;left:0px;top:0px;" >
+            //<img src="https://imgsa.baidu.com/forum/w%3D223/sign=527ffe6dd1c8a786be2a4d0c5408c9c7/60f0f736afc379317d35d8beebc4b74542a911c3.jpg" style="width:223px;height:297px;left:0px;top:0px;">
+            string html = wc.DownloadString("https://tieba.baidu.com/p/2460150866?pn=3"); 
             MatchCollection matches =  Regex.Matches(html, "src=\"(.+?\\.jpg)\" pic_ext");// Regex.Matches(html, "<img.*src=\"(.+?)\".*>");
             int i=1;
             foreach (Match item in matches)
