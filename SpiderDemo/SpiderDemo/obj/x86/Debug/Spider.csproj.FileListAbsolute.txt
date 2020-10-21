@@ -13,3 +13,9 @@ F:\杨志苍文件管理\400-编程\GitHubSource\SpiderDemo\SpiderDemo\SpiderDem
 F:\杨志苍文件管理\400-编程\GitHubSource\SpiderDemo\SpiderDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\ConsoleApplication1.exe
 F:\杨志苍文件管理\400-编程\GitHubSource\SpiderDemo\SpiderDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\ConsoleApplication1.pdb
 F:\杨志苍文件管理\400-编程\GitHubSource\SpiderDemo\SpiderDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\Spider.csprojAssemblyReference.cache
+C:\Users\67318\Source\Repos\Yang9035\SpiderDemo\SpiderDemo\SpiderDemo\bin\Debug\ConsoleApplication1.exe
+C:\Users\67318\Source\Repos\Yang9035\SpiderDemo\SpiderDemo\SpiderDemo\bin\Debug\ConsoleApplication1.pdb
+C:\Users\67318\Source\Repos\Yang9035\SpiderDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\Spider.csproj.CoreCompileInputs.cache
+C:\Users\67318\Source\Repos\Yang9035\SpiderDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\67318\Source\Repos\Yang9035\SpiderDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\67318\Source\Repos\Yang9035\SpiderDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\Spider.csprojAssemblyReference.cache

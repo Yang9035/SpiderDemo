@@ -5,6 +5,7 @@ using System.Text;
 using System.Net;
 using System.Text.RegularExpressions;
 using System.IO;
+using System.Threading;
 
 namespace Spider
 {
@@ -24,19 +25,25 @@ namespace Spider
             //<img src="https://imgsa.baidu.com/forum/w%3D223/sign=d160da9233fa828bd1239ae1ce1e41cd/b54bd11373f0820237f1cfa84bfbfbedaa641bc1.jpg" style="width:223px;height:297px;left:0px;top:0px;">
             //<img src = "https://imgsa.baidu.com/forum/w%3D223/sign=2fb3be9eb6003af34dbadb62062bc619/f8fe9925bc315c602dc835788db1cb13485477c3.jpg" style = "width:223px;height:297px;left:0px;top:0px;" >
             //<img src="https://imgsa.baidu.com/forum/w%3D223/sign=527ffe6dd1c8a786be2a4d0c5408c9c7/60f0f736afc379317d35d8beebc4b74542a911c3.jpg" style="width:223px;height:297px;left:0px;top:0px;">
-            string html = wc.DownloadString("https://tieba.baidu.com/p/2460150866?pn=3"); 
-            MatchCollection matches =  Regex.Matches(html, "src=\"(.+?\\.jpg)\" pic_ext");// Regex.Matches(html, "<img.*src=\"(.+?)\".*>");
-            int i=1;
-            foreach (Match item in matches)
+            //src=\"(.+?\\.jpg)\" pic_ext
+            for (int k = 1; k < 59; k++)
             {
-                string str = item.Groups[1].Value.Substring(item.Groups[1].Value.LastIndexOf("."), 4);//截取图片后缀名称
-                //下载图片到指定路径  
-               // wc.DownloadFile(item.Groups[1].Value, @"E:\pic\" + Path.GetFileName(item.Groups[1].Value));
-                Console.WriteLine("正在下载..." + item.Groups[1].Value); 
-                wc.DownloadFile(item.Groups[1].Value, @"E:\pic\" + i + str);
-                Console.WriteLine( i + str+"下载完毕，准备下一张.." ); 
-                i++;
+                Thread.Sleep(1000);
+                string html = wc.DownloadString(string.Format("https://tieba.baidu.com/p/2460150866?pn={0}",k));
+                MatchCollection matches = Regex.Matches(html, "src=\"(.+?\\.jpg)\" pic_ext");
+                int i = 1;
+                foreach (Match item in matches)
+                {
+                    string str = item.Groups[1].Value.Substring(item.Groups[1].Value.LastIndexOf("."), 4);//截取图片后缀名称
+                                                                                                          //下载图片到指定路径  
+                                                                                                          // wc.DownloadFile(item.Groups[1].Value, @"E:\pic\" + Path.GetFileName(item.Groups[1].Value));
+                    Console.WriteLine("正在下载..." + item.Groups[1].Value);
+                    wc.DownloadFile(item.Groups[1].Value, @"E:\pic\" + i +k+ str);
+                    Console.WriteLine( string.Format("第{0}页{1}下载完毕，准备下一张..",k, i + k + str ));
+                    i++;
+                }
             }
+
 
             //博客园大神文章列表 及阅读详情
             //WebClient wc = new WebClient();
