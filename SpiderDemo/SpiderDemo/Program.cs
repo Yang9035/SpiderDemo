@@ -34,6 +34,7 @@ namespace Spider
                 int i = 1;
                 foreach (Match item in matches)
                 {
+                    Thread.Sleep(100);
                     string str = item.Groups[1].Value.Substring(item.Groups[1].Value.LastIndexOf("."), 4);//截取图片后缀名称
                                                                                                           //下载图片到指定路径  
                                                                                                           // wc.DownloadFile(item.Groups[1].Value, @"E:\pic\" + Path.GetFileName(item.Groups[1].Value));

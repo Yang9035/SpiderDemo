@@ -19,3 +19,9 @@ C:\Users\67318\Source\Repos\Yang9035\SpiderDemo\SpiderDemo\SpiderDemo\obj\x86\De
 C:\Users\67318\Source\Repos\Yang9035\SpiderDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\ConsoleApplication1.exe
 C:\Users\67318\Source\Repos\Yang9035\SpiderDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\ConsoleApplication1.pdb
 C:\Users\67318\Source\Repos\Yang9035\SpiderDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\Spider.csprojAssemblyReference.cache
+C:\Users\yang9\Source\Repos\Yang9035\SpiderDemo\SpiderDemo\SpiderDemo\bin\Debug\ConsoleApplication1.exe
+C:\Users\yang9\Source\Repos\Yang9035\SpiderDemo\SpiderDemo\SpiderDemo\bin\Debug\ConsoleApplication1.pdb
+C:\Users\yang9\Source\Repos\Yang9035\SpiderDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\Spider.csprojAssemblyReference.cache
+C:\Users\yang9\Source\Repos\Yang9035\SpiderDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\Spider.csproj.CoreCompileInputs.cache
+C:\Users\yang9\Source\Repos\Yang9035\SpiderDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\yang9\Source\Repos\Yang9035\SpiderDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\ConsoleApplication1.pdb
